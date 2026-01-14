@@ -1,6 +1,6 @@
-# Dr. Rupa Jaiswal Clinic Website
+# linic Website
 
-A modern, premium, and fully responsive clinic website built for Dr. Rupa Jaiswal, a General Physician in Kharghar, Navi Mumbai. This project uses Next.js 14, Tailwind CSS, and Shadcn UI to deliver a high-performance and visually appealing user experience.
+A modern, premium, and fully responsive clinic website built for a General Physician in Kharghar, Navi Mumbai. This project uses Next.js 14, Tailwind CSS, and Shadcn UI to deliver a high-performance and visually appealing user experience.
 
 ![Hero Screenshot](./public/images/hero-bg.png)
 
@@ -35,7 +35,7 @@ Follow these steps to set up the project locally on your machine.
 
 1.  **Clone the repository** (if applicable) or navigate to the project folder:
     ```bash
-    cd rupa-jaiswal-clinic
+    cd clinic-website
     ```
 
 2.  **Install dependencies:**
