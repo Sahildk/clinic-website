@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dr. Rupa Jaiswal Clinic Website
 
-## Getting Started
+A modern, premium, and fully responsive clinic website built for Dr. Rupa Jaiswal, a General Physician in Kharghar, Navi Mumbai. This project uses Next.js 14, Tailwind CSS, and Shadcn UI to deliver a high-performance and visually appealing user experience.
 
-First, run the development server:
+![Hero Screenshot](./public/images/hero-bg.png)
+
+## 🚀 Technology Stack
+
+*   **Framework:** [Next.js 14](https://nextjs.org/) (App Router)
+*   **Styling:** [Tailwind CSS v4](https://tailwindcss.com/)
+*   **UI Components:** [Shadcn UI](https://ui.shadcn.com/)
+*   **Animations:** [Framer Motion](https://www.framer.com/motion/)
+*   **Icons:** [Lucide React](https://lucide.dev/)
+*   **Font:** Outfit (Google Fonts)
+
+## ✨ Features
+
+*   **Premium Aesthetic:** Clean, teal-and-white medical theme with glassmorphism effects.
+*   **Responsive Design:** Fully optimized for Mobile, Tablet, and Desktop devices.
+*   **Interactive Elements:** Smooth scroll animations and hover effects using Framer Motion.
+*   **Services Showcase:** Grid layout highlighting key medical services.
+*   **Contact Integration:** Integrated Google Maps embed and appointment request form styling.
+*   **SEO Optimized:** Semantic HTML and Next.js metadata optimization.
+
+## 🛠️ Getting Started
+
+Follow these steps to set up the project locally on your machine.
+
+### Prerequisites
+
+*   Node.js (v18.17 or later)
+*   npm or yarn
+
+### Installation
+
+1.  **Clone the repository** (if applicable) or navigate to the project folder:
+    ```bash
+    cd rupa-jaiswal-clinic
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    # or
+    yarn install
+    # or
+    pnpm install
+    ```
+
+3.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+
+4.  **Open your browser:**
+    Navigate to [http://localhost:3000](http://localhost:3000) to view the application.
+
+## 📁 Project Structure
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+src/
+├── app/                  # Next.js App Router pages
+│   ├── layout.tsx        # Root layout with fonts and metadata
+│   ├── page.tsx          # Homepage composition
+│   └── globals.css       # Global styles and Tailwind theme
+├── components/
+│   ├── custom/           # Custom built components (Hero, Navbar, etc.)
+│   └── ui/               # Reusable Shadcn UI components
+├── lib/                  # Utility functions
+└── ...
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎨 Customizing
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+*   **Colors:** The theme uses CSS variables defined in `src/app/globals.css`. You can adjust the HSL values to change the primary brand colors.
+*   **Content:** Edit the text and links in the individual components located in `src/components/custom/`.
+*   **Images:** Place new images in the `public/images/` directory and update the references in the components.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📄 License
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is for personal portfolio usage.
